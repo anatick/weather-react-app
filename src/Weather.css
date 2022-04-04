@@ -1,0 +1,61 @@
+.Weather .search {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 15px;
+
+}
+
+.Weather .searchButton {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    background: #195190ff;
+    border: 1px solid #00203f;
+    color: #fcf6f5ff;
+    margin: 1px auto;
+    padding: 1px 20px;
+    border-radius: 5px;
+}
+
+.Weather .locationButton {
+    display: block;
+    width: 110%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #89ABE3FF;
+    border: 1px solid #00203FFF;
+    color: #FCF6F5FF;
+    margin: 1px -20px;
+    padding: 10px auto;
+    border-radius: 5px;
+}
+.Weather h3 {
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.Weather .currentCity li {
+    text-align: left;
+}
+
+.Weather .currentWeather img {
+    text-align: left;
+    margin-bottom: 5px;
+    height: 120px;
+    width: 120px;
+    margin: -12px -10px;
+    margin-left: -100px;
+}
+
+.Weather .temperature strong {
+    font-size: 40px;
+    line-height: 1px;
+    font-weight: 400;
+}
+
+
+
+
