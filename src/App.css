@@ -1,36 +1,15 @@
 .App {
-  text-align: center;
   font-family: sans-serif;
   max-width: 600px;
-  margin: 20px;
+  margin: 15px auto;
   padding: 20px;
 }
 
 .container {
-  text-align: center;
-  max-width: 620px;
   margin: 0px auto;
-  padding: 20px;
   border: 1px solid #00203f;
   border-radius: 8px;
   background: #d6dbdbe3;
-}
-
-li {
-  font-size: 15px;
-  list-style: none;
-}
-
-ul {
-  padding-left: 0%;
-}
-
-li:first-letter {
-  text-transform: capitalize;
-}
-
-a {
-  text-decoration: none;
 }
 
 
