@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import axios from "axios";
+import FormatDate from "./FormatDate";
 import WeatherForecast from "./WeatherForecast"
+import axios from "axios";
 import "./Weather.css"
  
 export default function Weather(props){
@@ -11,7 +12,7 @@ export default function Weather(props){
       ready: true,
       temperature: response.data.main.temp,
       city: response.data.name,
-      date: "Monday, 04 Mar 2022 12:45",
+      date: new Date(response.data.dt * 1000),
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
@@ -30,7 +31,7 @@ export default function Weather(props){
                 type="search"
                 placeholder="🔎 Search city ..."
                 className="form-control"
-                autocomplete="off"
+                autoComplete="off"
                 autoFocus="on"
               /> 
             </div>  
@@ -53,7 +54,9 @@ export default function Weather(props){
         <div className="currentCity">
           <h3>{weatherData.city}</h3>
           <ul className="currentDate">
-            <li>{weatherData.date}</li>
+            <li>
+              <FormatDate date={weatherData.date} />
+            </li>
           </ul>
         </div>
 
