@@ -6,7 +6,9 @@
 }
 
 .container {
+  max-width: 530px;
   margin: 0px auto;
+  padding: 0px 22px;
   border: 1px solid #00203f;
   border-radius: 8px;
   background: #d6dbdbe3;

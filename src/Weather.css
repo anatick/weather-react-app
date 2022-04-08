@@ -2,18 +2,18 @@
   margin: 20px auto;
 }
 
-.Weather .search {
+.Weather .form-control {
   display: block;
   width: 100%;
   border-radius: 5px;
   border: 1px solid #ced4da;
-  font-size: 15px;
+  font-size: 13px;
 
 }
 
 .Weather .searchButton {
   display: block;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   background: #195190ff;
   border: 1px solid #00203f;
@@ -25,7 +25,7 @@
 
 .Weather .locationButton {
   display: block;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   background-color: #89ABE3FF;
   border: 1px solid #00203FFF;
@@ -37,11 +37,12 @@
 
 .Weather h3 {
   text-align: left;
-  margin-top: 50px;
+  margin: 60px 0px 2px 2px;
 }
 
 .Weather .currentDate {
   padding-left: 0%;
+  margin: 0px 2px 2px 2px;
 }
 
 .Weather li {
@@ -78,6 +79,8 @@ li:first-letter {
 
 .Weather .features {
   margin-top: 28px;
+  margin-left: 40px;
+  font-size: 15px;
 }
 
 
