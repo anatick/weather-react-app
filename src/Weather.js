@@ -72,13 +72,7 @@ export default function Weather(props){
         <WeatherInfo data={weatherData} />
         
 
-        <div className="row">
-          <WeatherForecast />
-          <WeatherForecast />
-          <WeatherForecast />
-          <WeatherForecast />
-          <WeatherForecast />
-        </div>
+       
       </div>
     );
   } else {
