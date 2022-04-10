@@ -54,8 +54,13 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.Weather .WeatherTemperature {
+  margin: -75px 0px 0px 80px;
+}
+
 .Weather img {
-  height: 120px;
+  height: 80px;
+  width: 80px;
   margin-right: -10px;
   margin-left: -25px;
   display: inline-block;  
@@ -78,8 +83,6 @@ li:first-letter {
 }
 
 .Weather .features {
-  margin-top: 28px;
-  margin-left: 40px;
   font-size: 15px;
 }
 
