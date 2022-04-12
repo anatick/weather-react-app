@@ -20,6 +20,7 @@ export default function WeatherInfo(props) {
               <img 
               src={props.data.iconUrl}
               alt={props.data.description}
+              className="WeatherInfo-image"
               />
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
