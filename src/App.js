@@ -10,7 +10,7 @@ export default function App() {
       <Weather defaultCity="Lisbon"/>
       </div>
       <small>
-        <a href="https://github.com/anatick/anatick" target="_blank" rel="noreferrer" >Open-source code </a> by Ana Carraça
+        <a href="https://github.com/anatick/anatick" target="_blank" rel="noopener noreferrer" >Open-source code </a> by Ana Carraça
       </small>
     </div>
   );

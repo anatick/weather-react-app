@@ -14,23 +14,12 @@
 .Weather .searchButton {
   display: block;
   font-size: 13px;
+  font-weight: 200;
   text-align: center;
-  background: #195190ff;
-  border: 1px solid #00203f;
-  color: #fcf6f5ff;
-  margin: 1px -5px;
-  padding: 5px 20px;
-  border-radius: 5px;
-}
-
-.Weather .locationButton {
-  display: block;
-  font-size: 13px;
-  text-align: center;
-  background-color: #89ABE3FF;
+  background-color: #89abe3;
   border: 1px solid #00203FFF;
-  color: #FCF6F5FF;
-  margin: 1px -36px;
+  color: #00203FFF;
+  margin: 1px -5px;
   padding: 5px 20px;
   border-radius: 5px;
 }
@@ -55,12 +44,12 @@ li:first-letter {
 }
 
 .Weather .WeatherTemperature {
-  margin: -75px 0px 0px 80px;
+  margin: -80px 0px 0px 90px;
 }
 
 .WeatherInfo-image {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin-right: -10px;
   margin-left: -25px;
   display: inline-block;  
@@ -84,6 +73,7 @@ li:first-letter {
 
 .Weather .features {
   font-size: 15px;
+  margin: 26px 0px 5px 16px;
 }
 
 
